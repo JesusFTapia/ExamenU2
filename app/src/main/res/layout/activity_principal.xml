@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Principal">
+    <ImageView
+        android:id="@+id/iv_imagentitulo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grupo1"
+        />
+
+    <Button
+        android:id="@+id/btnDetalles"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"
+        android:text="@string/detalles"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnGlobos"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"
+        android:text="@string/globos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnPeluches"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"
+        android:text="@string/peluches"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnRegalos"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"
+        android:text="@string/regalos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnTazas"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"
+        android:text="@string/tazas"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
